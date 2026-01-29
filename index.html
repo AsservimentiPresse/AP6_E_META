@@ -58,7 +58,7 @@ margin-bottom: 10px;
 .controls-section {
 display: flex;
 align-items: center;
-margin: 10px 0;
+margin: 10px 0; /*Distanza tra una colonna titoli e l'altra in verticale */
 width: 95vw;
 }
 
@@ -74,15 +74,15 @@ flex-wrap: wrap;
 gap: 10px;
 }
 
-button.color {
-padding: 10px 20px;
-border: none;
-border-radius: 12px;
-cursor: pointer;
-font-size: 1rem;
-color: white;
-min-width: 80px;
-}
+  button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      color: white;
+      min-width: 80px;
+  }
 
 .green { background: green; }
 .blue { background: blue; }
@@ -93,7 +93,6 @@ min-width: 80px;
 .orange { background: orange; color: grey;}
 </style>
 </head>
-
 <body>
 
 <!-- MODEL VIEWER -->
@@ -197,6 +196,7 @@ material.pbrMetallicRoughness.setBaseColorFactor(rgba);
 </body>
 
 </html>
+
 
 
 
